@@ -1,0 +1,60 @@
+<ion-view title="View Result" id="page1" cache-view='false'>
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <ion-nav-buttons side="left" class="has-header ">
+    <a class="button icon-left ion-navicon-round button-clear button-dark lefts" ui-sref="dashboard"></a>
+  </ion-nav-buttons>
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div>
+      <div class="row">
+        <div class="col middle">
+          <div class="row">
+            <div class="col middle_1" ng-app="app" ng-controller="viewResultCntrl" ng-init="viewResult()">
+              <div class="card" ng-repeat="sm in student_marks" ng-hide={{yes_record}} style="margin-bottom:5px;">
+                <div class = "row">
+                  <div class = "col a5 back_clr">{{sm.exam_name}}</div>
+                </div>
+                <div class = "row">
+                  <div class="col a5">
+                    <label class="item item-input item-stacked-label">
+                    <span class="input-label">Date</span>
+                    <span class="input-label" style="color:red;">{{sm.date}}</span>
+                    </label>
+                  </div>
+                  <div class="col a5">
+                    <!-- <a ui-sref="view_Details"> -->
+                    <label class="item item-input item-stacked-label">
+                    <!-- <span class="input-label" style="color:purple;">Details</span> -->
+                    <button class="button button-positive"  ui-sref="view_result_details" ng-click = 'result_details()' value={{sm.schedule_exam_id}} id='details_id'>
+                    Details
+                    </button>
+                    </label>
+                    <!-- </a> -->
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class="col a5"><label class="item item-input item-stacked-label">
+                    <span class="input-label">Total Marks</span>
+                    <span class="input-label" style="color:red;">{{sm.marks}}</span>
+                    </label>
+                  </div>
+                  <div class="col a5">
+                    <label class="item item-input item-stacked-label">
+                    <span class="input-label">Obtained Marks</span>
+                    <span class="input-label" style="color:red;">{{sm.student_marks}}</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="card" ng-if="no_record=='0'">
+                <center><h4>No record available</h4></center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dashboard-container1" class="col creator-container"></div>
+  </ion-content>
+</ion-view>

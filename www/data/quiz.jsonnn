@@ -1,0 +1,402 @@
+[
+  {
+    "_id": "593697763aeea5581113405d",
+    "index": 0,
+    "question": "who is president of Belgium?",
+    "option": [
+      {
+        "Option1": "Serrano Rivas"
+      },
+      {
+        "Option2": "Katina Bartlett"
+      },
+      {
+        "Option3": "Prince Jefferson"
+      },
+      {
+        "Option4": "Katherine Rollins"
+      }
+    ],
+    "answer": "Option1"
+  },
+  {
+    "_id": "59369776d9079fcfedfd00e1",
+    "index": 1,
+    "question": "who is president of Brunei Darussalam?",
+    "option": [
+      {
+        "Option1": "Dennis Hays"
+      },
+      {
+        "Option2": "Lyons Webb"
+      },
+      {
+        "Option3": "Mandy Anthony"
+      },
+      {
+        "Option4": "Church Zamora"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "59369776f7c845aa73777534",
+    "index": 2,
+    "question": "who is president of United States?",
+    "option": [
+      {
+        "Option1": "Margarita Glover"
+      },
+      {
+        "Option2": "Joyner Caldwell"
+      },
+      {
+        "Option3": "Jeanette Hahn"
+      },
+      {
+        "Option4": "Leblanc Meadows"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "5936977697011c09b2f89ad7",
+    "index": 3,
+    "question": "who is president of France, Metropolitan?",
+    "option": [
+      {
+        "Option1": "Elvia Perry"
+      },
+      {
+        "Option2": "Juana Barlow"
+      },
+      {
+        "Option3": "Fran Ashley"
+      },
+      {
+        "Option4": "Hayden Hughes"
+      }
+    ],
+    "answer": "Option3"
+  },
+  {
+    "_id": "59369776319fefaa53de530e",
+    "index": 4,
+    "question": "who is president of Tonga?",
+    "option": [
+      {
+        "Option1": "Ernestine Huffman"
+      },
+      {
+        "Option2": "Teri Lara"
+      },
+      {
+        "Option3": "May Ball"
+      },
+      {
+        "Option4": "Nell Vance"
+      }
+    ],
+    "answer": "Option1"
+  },
+  {
+    "_id": "59369776d93159d40db0c68e",
+    "index": 5,
+    "question": "who is president of Peru?",
+    "option": [
+      {
+        "Option1": "Knapp Yates"
+      },
+      {
+        "Option2": "Watkins Koch"
+      },
+      {
+        "Option3": "Evangelina Stephens"
+      },
+      {
+        "Option4": "Fannie Matthews"
+      }
+    ],
+    "answer": "Option4"
+  },
+  {
+    "_id": "593697765669fd6170f3debc",
+    "index": 6,
+    "question": "who is president of Yemen?",
+    "option": [
+      {
+        "Option1": "Moody Richardson"
+      },
+      {
+        "Option2": "Dora Lee"
+      },
+      {
+        "Option3": "Vaughan Parrish"
+      },
+      {
+        "Option4": "Glenda Brewer"
+      }
+    ],
+    "answer": "Option1"
+  },
+  {
+    "_id": "5936977603807bab427df75e",
+    "index": 7,
+    "question": "who is president of Slovenia?",
+    "option": [
+      {
+        "Option1": "Shari Walters"
+      },
+      {
+        "Option2": "Preston Mcintyre"
+      },
+      {
+        "Option3": "Eugenia Owen"
+      },
+      {
+        "Option4": "Snider Gutierrez"
+      }
+    ],
+    "answer": "Option3"
+  },
+  {
+    "_id": "59369776b7db4884eaabdca3",
+    "index": 8,
+    "question": "who is president of Bahrain?",
+    "option": [
+      {
+        "Option1": "Johns Ford"
+      },
+      {
+        "Option2": "Schneider Benjamin"
+      },
+      {
+        "Option3": "Dalton Kent"
+      },
+      {
+        "Option4": "Shepherd Thornton"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "593697764767d2524200f3d1",
+    "index": 9,
+    "question": "who is president of Gambia?",
+    "option": [
+      {
+        "Option1": "Brenda Weeks"
+      },
+      {
+        "Option2": "Hanson Howell"
+      },
+      {
+        "Option3": "Solomon Hill"
+      },
+      {
+        "Option4": "Marks Richards"
+      }
+    ],
+    "answer": "Option3"
+  },
+  {
+    "_id": "59369776c4b9db49cb29ffa5",
+    "index": 10,
+    "question": "who is president of Haiti?",
+    "option": [
+      {
+        "Option1": "Harrison Cote"
+      },
+      {
+        "Option2": "Jo Sanford"
+      },
+      {
+        "Option3": "Hull Mills"
+      },
+      {
+        "Option4": "Antonia Petty"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "59369776f3ce6ac1bddba7ab",
+    "index": 11,
+    "question": "who is president of Hungary?",
+    "option": [
+      {
+        "Option1": "Marla Daugherty"
+      },
+      {
+        "Option2": "Sophia Stevenson"
+      },
+      {
+        "Option3": "Atkinson Hess"
+      },
+      {
+        "Option4": "Wilma Solis"
+      }
+    ],
+    "answer": "Option1"
+  },
+  {
+    "_id": "5936977648a49f56e5660647",
+    "index": 12,
+    "question": "who is president of Poland?",
+    "option": [
+      {
+        "Option1": "Gibbs Mcclure"
+      },
+      {
+        "Option2": "Traci Phelps"
+      },
+      {
+        "Option3": "Coleen Parker"
+      },
+      {
+        "Option4": "Sparks Bryant"
+      }
+    ],
+    "answer": "Option3"
+  },
+  {
+    "_id": "593697761e43fe80ddde57e1",
+    "index": 13,
+    "question": "who is president of Kenya?",
+    "option": [
+      {
+        "Option1": "Delacruz Trevino"
+      },
+      {
+        "Option2": "Patty Pearson"
+      },
+      {
+        "Option3": "Pope Cameron"
+      },
+      {
+        "Option4": "Pratt Nash"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "59369776b8d12ed8973b7bfa",
+    "index": 14,
+    "question": "who is president of Mauritania?",
+    "option": [
+      {
+        "Option1": "Maude Short"
+      },
+      {
+        "Option2": "Mercado Wilkins"
+      },
+      {
+        "Option3": "Vickie Wells"
+      },
+      {
+        "Option4": "Mccarty Waters"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "593697764486844b2358f6dc",
+    "index": 15,
+    "question": "who is president of Mexico?",
+    "option": [
+      {
+        "Option1": "Jamie Nolan"
+      },
+      {
+        "Option2": "Irwin Boyd"
+      },
+      {
+        "Option3": "Loretta Mccormick"
+      },
+      {
+        "Option4": "Leanne Mccullough"
+      }
+    ],
+    "answer": "Option1"
+  },
+  {
+    "_id": "5936977650f385a746a4d335",
+    "index": 16,
+    "question": "who is president of Tuvalu?",
+    "option": [
+      {
+        "Option1": "Graciela Moon"
+      },
+      {
+        "Option2": "Porter Ortega"
+      },
+      {
+        "Option3": "Hebert Cross"
+      },
+      {
+        "Option4": "Donna Gordon"
+      }
+    ],
+    "answer": "Option3"
+  },
+  {
+    "_id": "59369776f9d63deac030a708",
+    "index": 17,
+    "question": "who is president of S. Georgia and S. Sandwich Isls.?",
+    "option": [
+      {
+        "Option1": "Witt Kennedy"
+      },
+      {
+        "Option2": "Harriett Morin"
+      },
+      {
+        "Option3": "Burgess Daniels"
+      },
+      {
+        "Option4": "Trujillo England"
+      }
+    ],
+    "answer": "Option4"
+  },
+  {
+    "_id": "59369776195c4eaf3854f02f",
+    "index": 18,
+    "question": "who is president of Solomon Islands?",
+    "option": [
+      {
+        "Option1": "Blankenship Snyder"
+      },
+      {
+        "Option2": "Bowers Bernard"
+      },
+      {
+        "Option3": "Mendez Oconnor"
+      },
+      {
+        "Option4": "Logan Stewart"
+      }
+    ],
+    "answer": "Option2"
+  },
+  {
+    "_id": "593697762e4ba3ab420feb98",
+    "index": 19,
+    "question": "who is president of Ethiopia?",
+    "option": [
+      {
+        "Option1": "Buckley Albert"
+      },
+      {
+        "Option2": "Sheryl Mcguire"
+      },
+      {
+        "Option3": "Bernard Mccoy"
+      },
+      {
+        "Option4": "Quinn Kirby"
+      }
+    ],
+    "answer": "Option1"
+  }
+]

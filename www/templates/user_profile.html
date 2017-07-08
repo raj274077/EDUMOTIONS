@@ -1,0 +1,63 @@
+<ion-view title="Profile" id="page1" >
+  <ion-nav-buttons side="left" class="has-header ">
+    <a class="button icon-left ion-navicon-round button-clear button-dark lefts" ui-sref="dashboard"></a>
+  </ion-nav-buttons>
+
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div >
+      <div class="row">
+        <div class="col middle" ng-app="app" ng-controller="userProfileCntrl" ng-init="insertdata();">
+          <div class="row">
+            <div class="col middle_1">
+              <div class="card ">
+                <div class="list list-inset">
+                  <label class="item item-input">
+                  <span class="input-label">Student Id:</span>
+                  <span class="input-label">{{student[0].student_id}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">First Name</span>
+                  <span class="input-label">{{student[0].fname}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Midle Name:</span>
+                  <span class="input-label">{{student[0].mname}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Last Name:</span>
+                  <span class="input-label">{{student[0].lname}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Email ID:</span>
+                  <span class="input-label">{{student[0].email}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Mobile No:</span>
+                  <span class="input-label">{{student[0].mobile}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Class:</span>
+                  <span class="input-label">{{student[0].class}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Subject:</span>
+                  <span class="input-label">{{student[0].subject}}</span>
+                  </label>
+                  <label class="item item-input">
+                  <span class="input-label">Roll No:</span>
+                  <span class="input-label">{{student[0].Roll_no}}</span>
+                  </label>
+                </div>
+                <button class="button button-outline button-royal" ion-button clear ui-sref="changepass">
+                Change Password
+                </button>
+                <button ion-button ng-click="refresh()">Refresh</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dashboard-container1" class="col creator-container"></div>
+  </ion-content>
+</ion-view>

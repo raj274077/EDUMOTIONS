@@ -1,0 +1,50 @@
+<ion-view title="Exam Details" id="page1">
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <!-- <ion-nav-buttons side="left" class="has-header padding_left">
+    <a class="button icon-left ion-chevron-left button-clear button-dark lefts" ui-sref="#"></a>
+  </ion-nav-buttons> -->
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div>
+      <div class="row">
+        <div class="col middle" ng-app="app" ng-controller="submitExamCntrl">
+          <div class="row">
+            <div class="col middle_1" style='height:100%'>
+              <div class="card">
+                <div class = "row">
+                  <div class = "col a1" style="width:50%;">Exam Name</div>
+                  <div class="a1"  style="width:50%;">{{exam_name}}</div>
+                </div>
+                <div class = "row">
+                  <div class = "col a1"  style="width:50%;">Total No. of Questions</div>
+                  <div class="a1"  style="width:50%;">{{q_count}} </div>
+                </div>
+                <div class = "row">
+                  <div class = "col a1"  style="width:50%;">Answered No. of Questions</div>
+                  <div class="a1"  style="width:50%;">{{attempt_count}}</div>
+                </div>
+                <div class = "row">
+                  <div class = "col a1"  style="width:50%;">Unanswered No. of Questions</div>
+                  <div class="a1"  style="width:50%;">{{unAnswerQ}}</div>
+                </div>
+                <div class = "row">
+                  <div class = "col a1"  style="width:50%;">Total Marks</div>
+                  <div class="a1"  style="width:50%;">{{total_marks}}</div>
+                </div>
+                <div class = "row" ng-hide = marks_div>
+                  <div class = "col a1"  style="width:50%;">Obtained Marks</div>
+                  <div class="a1"  style="width:50%;">{{obtained_marks}}</div>
+                </div>
+              </div>
+              <button class="button button-outline button-positive col padding_top" ion-button clear ui-sref="dashboard" ng-hide = gotohome ng-click='clear_local()'>
+              Go to home
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dashboard-container1" class="col creator-container"></div>
+  </ion-content>
+</ion-view>

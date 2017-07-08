@@ -1,0 +1,35 @@
+<ion-view title="Select Exams" id="page1" ng-app="app" ng-controller='selectTestListCntrl' ng-init="selectTestList()">
+  <ion-nav-buttons side="left" class="has-header ">
+    <a class="button icon-left ion-navicon-round button-clear button-dark lefts" ui-sref="dashboard"></a>
+  </ion-nav-buttons>
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div>
+      <div class="row">
+        <div class="col middle">
+          <div class="row">
+            <div class="col middle_1">
+              <h4 class="title_exam" style="color:white;">Exams Name</h4>
+              <div class="list list_1">
+                <label class="item item-input item-select">
+                  <select id='testName'>
+                    <option value=""></option>
+                    <option ng-repeat='e in exam' value="{{e.schedule_exam_id}}">{{e.exam_name}}</option>
+                  </select>
+                </label>
+              </div>
+              <center>
+        				<button class="button button-outline button-positive col updated" ion-button clear ng-click='selectTest()'>
+        					Start Exams
+                </button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dashboard-container1" class="col creator-container"></div>
+  </ion-content>
+</ion-view>

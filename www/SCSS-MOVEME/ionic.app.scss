@@ -1,0 +1,69 @@
+$positive: #327283;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.user_back {
+	background-color: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.3);
+	color: white;
+}
+
+.user_back .input-label {
+	color: white;
+}
+
+.Head_shadow {
+	text-shadow: 1px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.log_btn {
+	-webkit-box-shadow: -1px 1px 10px -1px rgba(0,0,0,0.59);
+	-moz-box-shadow: -1px 1px 10px -1px rgba(0,0,0,0.59);
+	box-shadow: -1px 1px 10px -1px rgba(0,0,0,0.59);
+}
+
+.side_Main_sidebar1 {
+	background: -moz-linear-gradient(278deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
+	/* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,128,128,1)));
+	/* safari4+,chrome */
+	background: -webkit-linear-gradient(278deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
+	/* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(278deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
+	/* opera 11.10+ */
+	background: -ms-linear-gradient(278deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
+	/* ie10+ */
+	background: linear-gradient(172deg, rgba(255,255,255,1) 0%, rgba(0,128,128,1) 100%);
+	/* w3c */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#008080',GradientType=0 );
+	/* ie6-9 */}
+.item-complex.item-icon-left .item-content {
+	background: none !important;
+}
+
+.Dash_1,.Dash_2 {
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.4);
+	margin: 5px;
+}
+
+body.platform-ios {
+	font-family: Raleway, sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: Raleway, sans-serif;
+}
+
+body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+

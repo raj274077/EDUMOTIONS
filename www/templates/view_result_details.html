@@ -1,0 +1,34 @@
+<ion-view title="View Details" id="page1">
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <ion-nav-buttons side="left" class="has-header ">
+    <a class="button icon-left ion-navicon-round button-clear button-dark lefts" ui-sref="dashboard"></a>
+  </ion-nav-buttons>
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div>
+      <div class="row">
+        <div class="col middle" ng-app="app" ng-controller="viewResultDetailsCntrl" ng-init="viewDetails()">
+          <div class="row">
+            <div class="col middle_1">
+              <div class="card">
+                <div class = "row">
+                  <div class = "col a3">Question Number</div>
+                  <div class = "col a3">Correct Answer</div>
+                  <div class = "col a3">Selected Answer</div>
+                </div>
+                <div class = "row" ng-repeat="data in data.answer_details">
+                  <div class = "col a3">{{data.i}}</div>
+                  <div class = "col a3">{{data.correct_answer}}</div>
+                  <div class = "col a3" ng-style="{{data.correct_answer === data.student_answer ? {backgroundColor:'rgba(128, 233, 128, 0.4)'} : false}}">{{data.student_answer}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dashboard-container1" class="col creator-container"></div>
+  </ion-content>
+</ion-view>

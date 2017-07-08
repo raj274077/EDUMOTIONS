@@ -1,0 +1,33 @@
+
+<ion-view title="Update Password">
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <ion-nav-buttons side="left" class="has-header ">
+    <a class="button icon-left ion-chevron-left button-clear button-dark lefts" ui-sref="user_profile"></a>
+  </ion-nav-buttons>
+  <ion-content padding="true">
+    <div class="spacer" style="width: 300px; height: 26px;"></div>
+    <h2 id="login-heading3" style="color:#186884;font-weight:600;text-align:center;">Change Password</h2>
+    <div class="spacer" style="width: 300px; height: 35px;"></div>
+    <form id="login-form2" class="list" ng-app="app">
+      <div class="list">
+        <label class="item item-input " id="login-input1" name="User" >
+        <input type="password" placeholder="Current Password" id='current_pass'>
+        </label>
+        <br>
+        <label class="item item-input " id="login-input2" name="User">
+        <input type="password" placeholder="New Password"  id="new_pass" ng-model="Email">
+        </label>
+        <br>
+        <label class="item item-input " id="login-input3" name="User">
+        <input type="password" placeholder="Confirm Password"  id="confirm_pass" ng-model="pswd">
+        </label>
+      </div>
+      <button class="button button-positive  button-full" id = "submitButt" ng-click = "change_password()" class="button button-block log_btn">
+      Update
+      </button>
+      <div class="alert alert-danger" role="alert" ng-show="errorMsg">{{errorMsg}}</div>
+    </form>
+  </ion-content>
+</ion-view>

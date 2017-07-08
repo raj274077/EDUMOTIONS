@@ -1,0 +1,71 @@
+<ion-view title="Exam" id="page1" ng-app='app' ng-controller="examController" ng-init=' loadImages(exam.questions[0]); timer();'>
+  <!-- <ion-refresher pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher> -->
+  <!-- <ion-nav-buttons side="left" class="has-header padding_left">
+    <a class="button icon-left ion-chevron-left button-clear button-dark lefts"></a>
+  </ion-nav-buttons> -->
+  <ion-content padding="true" style="background: #348aa9 no-repeat center;background-size:cover;" class="has-header">
+    <div>
+      <div class="row">
+        <div class="col middle">
+          <div class="row">
+            <div class="col middle_1">
+              <ion-card>
+                <ion-card-header style="margin-top:10px; margin-bottom:15px;">
+                  <span style="text-align: left;color:#1705ba;padding:5px;" >Q Atmpt: {{attempt_count}}/ {{q_count}} </span>
+                  <span style="text-align: right;color:white;padding-left:5px; float:right;height: 19px;">Timer {{remaining_time}}</span>
+                  <!-- <span style="float:right;"></span> -->
+                </ion-card-header>
+              </ion-card>
+              <br>
+              <div ng-init="str='asdf'">
+                <ion-item>
+                  <span>Q {{x+1}})</span> <span ng-if="exam.questions[x].question != '' && (exam.questions[x].question.indexOf(str))">{{exam.questions[x].question}}</span>
+                  <!-- <ion-scroll scrollX="true"> -->
+                    <img ng-if="exam.questions[x].q_image != ''" max-width="300" style="display:inline-flex;" data-ng-src="http://enclaveengg.com/projects/examportal/data/images/question/{{exam.questions[x].q_image}}"/>
+                  <!-- </ion-scroll> -->
+                </ion-item>
+                <ion-item>
+                  <ion-radio value="a" ng-click="q_attempted(exam.questions[x].question_id,'a')" ng-model="answer[x]">
+                    <span style="display: inline-flex;margin-right: 5px;">A)</span>
+                    <span> {{exam.questions[x].a}}</span>
+                    <img ng-if="exam.questions[x].aImage != ''" max-width="300" style="display:inline-flex;" data-ng-src="http://enclaveengg.com/projects/examportal/data/images/question/{{exam.questions[x].aImage}}"/>
+                  </ion-radio>
+
+                  <ion-radio value="b" ng-click="q_attempted(exam.questions[x].question_id, 'b')" ng-model="answer[x]">
+                    <span  style="display: inline-flex;margin-right: 5px;">B)</span>
+                    <span ng-if="exam.questions[x].b != ''"> {{exam.questions[x].b}}</span>
+                    <img ng-if="exam.questions[x].bImage != ''" max-width="300" style="display:inline-flex;" data-ng-src="http://enclaveengg.com/projects/examportal/data/images/question/{{exam.questions[x].bImage}}"/>
+                  </ion-radio>
+
+                  <ion-radio value="c" ng-click="q_attempted(exam.questions[x].question_id, 'c')" ng-model="answer[x]">
+                    <span  style="display: inline-flex;margin-right: 5px;">C)</span>
+                    <span ng-if="exam.questions[x].c != ''"> {{exam.questions[x].c}}</span>
+                    <img ng-if="exam.questions[x].cImage != ''" id='cImage' max-width="300" style="display:inline-flex;" data-ng-src="http://enclaveengg.com/projects/examportal/data/images/question/{{exam.questions[x].cImage}}"/>
+                  </ion-radio>
+
+                  <ion-radio value="d"  ng-click="q_attempted(exam.questions[x].question_id, 'd')"  ng-model="answer[x]">
+                    <span  style="display: inline-flex;margin-right: 5px;">D)</span>
+                    <span ng-if="exam.questions[x].d != ''"> {{exam.questions[x].d}}</span>
+                    <img ng-if="exam.questions[x].dImage != ''" max-width="300" style="display:inline-flex;" data-ng-src="http://enclaveengg.com/projects/examportal/data/images/question/{{exam.questions[x].dImage}}"/>
+                  </ion-radio>
+                </ion-item>
+              </div>
+              <button class="button button-outline  button-positive " id="buttonQue" ng-click="backQuestion()" >
+              Back
+              </button>
+              <button class="button button-positive button-outline  button-positive " id="buttonQue"   ng-click="nextQuestion()">
+              Next
+              </button>
+              <button class="button button-positive button-outline  button-positive" id="buttonQue" ng-click="finish_exam()">
+              Finish Exam
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="dashboard-container1" class="col creator-container"></div>
+    </div>
+  </ion-content>
+</ion-view>

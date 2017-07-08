@@ -1,0 +1,34 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-content padding="false" style="top:0px !important;" class="side-menu-left side_Main_sidebar1" >
+      <!-- <div class="spacer" style="width: 268px; height: 22px;"></div> -->
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-left" id="menu-list-item10">
+          <i class="icon ion-ios-contact"></i>&nbsp;&nbsp;&nbsp;Welcome {{data.name}}</ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item1" ui-sref="menu.dashboard" menu-close="">
+          <i class="icon ion-android-home"></i>Dashboard
+          <ion-option-button class="button-positive"></ion-option-button>
+        </ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item5" ui-sref="menu.select_test" menu-close="">
+          <i class="icon ion-android-alarm-clock"></i>Start Test</ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item2" ui-sref="menu.view_result" menu-close="">
+          <i class="icon ion-android-clipboard"></i>View Result</ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item3" ui-sref="menu.practice_test" menu-close="">
+          <i class="icon ion-ios-compose"></i>Practice Test</ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item4" ui-sref="menu.user_profile" menu-close="">
+          <i class="icon ion-happy"></i>User Profile</ion-item>
+        <ion-item class="item-icon-left  side-menu-item" id="menu-list-item11" ui-sref="menu.login" menu-close="">
+          <i class="icon ion-ios-close-outline"></i>Sign Out</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
